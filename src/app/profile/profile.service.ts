@@ -8,79 +8,76 @@ export class ProfileService {
  projects:any = [
     {
       id: 2,
-      title: 'Camera Rental Application using java',
+      title: 'Workflow Automation & Notification Engine',
       desc: '',
-      livedemo: 'https://github.com/Rajiilax23/Java-FSD_New',
-      githurl: 'https://github.com/Rajiilax23/java-fsd',
+      livedemo: '',
+      githurl: 'https://github.com/Rajiilax23/event-driven-workflow-engine',
       
       imgUrl: 'assets/images/z26.jpg',
-      tech: 'Core Java and DSA'
+      tech: 'Python, FastAPI, PostgreSQL'
     },
     
     {
       id: 12,
-      title: 'Railway Crossing Status using Hibernate',
+      title: 'Paste Bin Lite',
       desc: '',
-      livedemo: 'https://github.com/Rajiilax23/Java-FSD_New',
-      githurl: 'https://github.com/Rajiilax23/java-fsd',
+      livedemo: 'https://pastebin-lite-gd3vyfjq7-rajalakshmis-projects-9f43aa65.vercel.app/',
+      githurl: 'https://github.com/Rajiilax23/pastebin-lite_',
       
       imgUrl: 'assets/images/z12.png',
-      tech: 'Hibernate and mySQL'
+      tech: 'Next.js, TypeScript, Upstash Redis,Vercel Deployment'
     },
 
     {
       id: 13,
-      title: 'Vaccination Center using SpringBoot',
+      title: 'Book Finder App',
       desc: '',
-      livedemo: 'https://github.com/Rajiilax23/Java-FSD_New',
-      githurl: 'https://github.com/Rajiilax23/java-fsd',
+      livedemo: 'https://codesandbox.io/p/devbox/bookfinder-lrd8jj',
+      githurl: 'https://github.com/Rajiilax23/React_BookFinder_App',
       
       imgUrl: 'assets/images/z13.png',
-      tech: 'SpringBoot and mySQl'
+      tech: 'React, Typescript, javascript, Tailwind'
     },
 
     
 
   ]
-  about2 = `Trainee Associate Software Engineer.
-  
-  A young passionate Java Full Stack Developer seeking opportunities to join a company that can help me in enhancing my knowledge and skills.
-  I am willing to explore a wide variety of opportunities that can help me gain perspective.
-  Have good understanding of Java, Hibernate, Bootstrap, Angular, and MYSQL`
+  about2 = 'Python Backend Engineer with 3 years of experience building and operating high-volume batch processing and data-driven backend systems for a US-based trading platform. Specialized in Python, SQL, FastAPI, job scheduling, and production-grade automation. Experienced in developing business logic, handling large data pipelines, monitoring critical workflows, and resolving failures under strict SLA timelines. Strong in backend engineering, system reliability, and scalable data processing.'
 
-  about = "Trainee Associate Software Engineer"
+  about = "Python Backend Developer"
 
   resumeurl = ""
   skillsData: any = [
     {
       'id': '1',
-      'skill': 'ANGULAR',
-      'progress': '85%'
-    },
-    {
-      'id': '2',
-      'skill': 'Boostrap',
+      'skill': 'Programming: Python, HTML, CSS',
       'progress': '90%'
     },
     {
-      'id': '3',
-      'skill': 'JAVASCRIPT',
-      'progress': '80%'
+      'id': '2',
+      'skill': 'Database: MySQL, PostgreSQL, MongoDB',
+      'progress': '85%'
     },
     {
+      'id': '3',
+      'skill': 'Framework: FastAPI',
+      'progress': '85%'
+    },
+    
+    {
       'id': '4',
-      'skill': 'SQL, MYSQL',
+      'skill': 'Tools: Git, Docker, Splunk, Tableau, Control-M, Remedy',
       'progress': '90%'
     },
     {
       'id': '5',
-      'skill': 'Hibernate',
+      'skill': 'Cloud: AWS',
       'progress': '80%'
     },
     {
       'id': '6',
-      'skill': 'JAVA',
-      'progress': '80%'
+      'skill': 'Others: Linux, Cron Jobs',
+      'progress': '85%'
     }
   ];
 
@@ -88,14 +85,11 @@ export class ProfileService {
   educationData: any = [
     {
       'id': '1',
-      'from_to_year': '2018 - 2012',
+      'from_to_year': '2018 - 2022',
       'education': 'Bachelor\'s Degree',
       'stream': 'Bachelor of Engineering',
-      'info': `Aditya Silver Oak Institute is GTU Affiliated and ranks 7th in Gujurat
-Completed B.E in Computer Engineering with 9.54 CGPA.
-Won the Best Student Award 3 times for excellent Academic records at College.
-Maintained above 9.1 spi in every semester of college academic .`,
-      'institution': 'ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY, AHMEDABAD'
+      'info': `.`,
+      'institution': ''
     },
   ];
   
